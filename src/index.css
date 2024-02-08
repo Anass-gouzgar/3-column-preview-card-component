@@ -1,41 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-
-/* - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display) */
 :root{
 --Bright-orange : hsl(31, 77%, 52%);
 --Dark-cyan: hsl(184, 100%, 22%);
 --Very-dark-cyan: hsl(179, 100%, 13%);
 }
 
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* 
 body{
   font-size: 15px;
-}
+} */
 
+/* 
 p{
   opacity: (0, 0%, 100%, 0.75);
-  font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
   color: hsla(0, 0%, 100%, 0.75) ;
-}
+  font-family: 'lexend Deca', 'sans-serif';
 
-h1{
-  font-family: 'lexend Deca', sans-serif;
+} */
+
+/* h2{
+  font-family: 'Big Shoulders Display', 'cursive';
   font-weight: 700;
   color: white;
-}
+} */
+
+/* button{
+  font-family: 'Big Shoulders Display', 'cursive';
+  font-weight: 700;
+  background-color: white;
+  border: rgb(255, 255, 255) 2px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+} */
 
 
-
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
+
+
 
